@@ -1,9 +1,9 @@
 
 let stringSingleQuote = 'Hello';
-let stringDoubleQuote = "Hey! Hello!";
+let stringDoubleQuote = "Hey! Joshua!";
 let stringBackTicks = `Sum of 1 and 2 is ${1 +2}`
 
-alert(stringSingleQuote);
+//alert(stringSingleQuote);
 alert(stringDoubleQuote);
 alert(stringBackTicks);
 
