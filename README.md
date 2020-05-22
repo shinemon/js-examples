@@ -1,1 +1,1 @@
-# js-examples and tutorial notes
+# js-examples
