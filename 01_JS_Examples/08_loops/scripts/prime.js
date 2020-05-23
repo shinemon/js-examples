@@ -8,16 +8,15 @@ if (number <= 1){
 
 if (number > 1) {
     let remainder = 0;
+    nextPrime:
     for(let i = 2; i <= number; i++){
         for (let j = 2; j < i; j++){
             remainder = i % j;
-
             if (remainder == 0){
-            break;
-            }
-            prime.push(i);
-            break;
-            }
+                continue nextPrime;
+                }
+           }
+     prime.push(i);
     }
     alert(prime)
 }
