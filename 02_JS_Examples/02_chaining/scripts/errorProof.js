@@ -7,6 +7,9 @@ let str = "Hello";
 
 alert(str);
 
+let key = 'key_1';
+sessionStorage.setItem(key,'value_1');
+
 str.test =5;
 alert(str.test);
 
