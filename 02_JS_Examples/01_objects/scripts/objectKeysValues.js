@@ -5,6 +5,7 @@ let salaries = {
 };
 
 alert(sumSalaries(salaries));
+alert(Object.entries(salaries));
 
 function sumSalaries(salaries){
     let sum = 0;
