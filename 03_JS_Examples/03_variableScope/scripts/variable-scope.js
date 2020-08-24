@@ -5,4 +5,16 @@
   alert(message); // Hello
 }
 
-alert(message)
+//alert(message)
+
+
+function sayHiBye(firstName, lastName){
+    function getFullName(){
+    return firstName + " " +  lastName;
+    }
+
+alert("Hello " + getFullName());
+alert("Bye! " + getFullName());
+}
+
+sayHiBye("Sam", "Son");
