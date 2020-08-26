@@ -9,3 +9,8 @@ alert(currentUser.name);  // John
 // or, if we have a local variable with the name "currentUser"
 // get it from window explicitly (safe!)
 alert(window.currentUser.name);
+
+if (!window.Promise) {
+  alert("Your browser is really old!");
+} else {
+alert("you are good to go!")}
