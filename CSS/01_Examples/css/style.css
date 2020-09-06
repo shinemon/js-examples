@@ -3,6 +3,10 @@
 color: red;
 }
 
+.title:hover{
+color: blue;
+}
+
 #subtitle{
 color: green;
 }
